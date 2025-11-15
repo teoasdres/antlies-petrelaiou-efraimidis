@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+  ΟΔΗΓΙΕΣ ΓΙΑ UPLOAD ΣΤΟ GITHUB
+═══════════════════════════════════════════════════════════════
+
+1. ΔΗΜΙΟΥΡΓΗΣΕ REPOSITORY ΣΤΟ GITHUB
+──────────────────────────────────────
+   - Πήγαινε στο github.com
+   - Κάνε "New repository"
+   - Δώσε όνομα (π.χ. "efraimidis-website")
+   - ΜΗΝ επιλέξεις "Initialize with README"
+   - Κάνε "Create repository"
+
+2. ΣΥΝΔΕΣΕ ΤΟ LOCAL REPOSITORY
+───────────────────────────────
+   Ανοίξτε terminal στο folder E:\pumps και τρέξτε:
+   
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git branch -M main
+   git push -u origin main
+
+   (Αντικατέστησε YOUR_USERNAME και YOUR_REPO με τα δικά σου)
+
+3. ALTERNATIVE: GitHub Desktop
+───────────────────────────────
+   Αν χρησιμοποιείς GitHub Desktop:
+   - File > Add Local Repository
+   - Επέλεξε το folder E:\pumps
+   - Κάνε "Publish repository"
+
+4. ΓΙΑ ΝΑ ΔΕΙΞΕΙΣ ΣΤΟΝ ΠΕΛΑΤΗ
+──────────────────────────────
+   Μετά το upload, μπορείς να:
+   
+   a) Χρησιμοποιήσεις GitHub Pages:
+      - Settings > Pages
+      - Source: Deploy from a branch
+      - Branch: main, folder: /dist
+      - Save
+      - Το site θα είναι διαθέσιμο σε: 
+        https://YOUR_USERNAME.github.io/YOUR_REPO/
+   
+   b) Ή απλά στείλε το GitHub link στον πελάτη
+
+═══════════════════════════════════════════════════════════════
+
